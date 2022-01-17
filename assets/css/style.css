@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: url(https://superdevresources.com/wp-content/uploads/2015/12/new-york-background.jpg);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.card {
+  border: 1px solid white;
+  width: 600px;
+  height: 350px;
+  color: white;
+  border-radius: 25px;
+  background: rgba(73, 70, 70, 0.5);
+  opacity: .8;
+  -webkit-box-shadow: 0px 0px 1.6px 0.4px white;
+          box-shadow: 0px 0px 1.6px 0.4px white;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.card-type {
+  width: 100%;
+}
+
+.card-type span {
+  float: right;
+  margin: 30px;
+  margin-right: 50px;
+  font-size: 56px;
+  font-family: myriad-pro, sans-serif;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.visa-details {
+  margin-top: 130px;
+  margin-left: 70px;
+}
+
+.visa-details .card-number {
+  margin-top: 40px;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.visa-details .card-footer {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.visa-details .card-validity {
+  float: right;
+  margin-right: 50px;
+}
